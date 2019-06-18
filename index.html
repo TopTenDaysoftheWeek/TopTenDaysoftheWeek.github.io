@@ -24,6 +24,50 @@ li{
 font-family: verdana;
 font-size: 34px;
 }
+.sidebar {
+  height: 100%;
+  width: 180px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: black;
+  padding-top: 30px;
+  overflow-x: hidden;
+  z-index: 1;
+}
+
+
+.sidebar {
+  padding: 8px 10px 8px 18px;
+  font-size: 26px;
+  color: white;
+  display: block;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 160px;
+  font-size: 26px;
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+</style>
+
+<div class="sidebar">
+  <a href="#about">About</a>
+  <a href="#services">Dogs</a>
+  <a href="#clients">Birds</a>
+  <a href="#contact">Contact</a>
+</div>
+
+
 
 .topTitle h2{
   color: black;
