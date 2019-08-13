@@ -1,10 +1,8 @@
 body {
   background-color: white;
-  background-position: 0% 0%;
   background-repeat: no-repeat;
-  background-size: 100% 1000px;
+  background-size: 100% 100%;
   font-family: 'Indie Flower', cursive;
-
 }
 
 h2 {
@@ -18,8 +16,6 @@ u {
   font-family: sans-serif;
 }
 
-
-
 g{
   font-size: 28px;
   font-family: sans-serif;
@@ -27,13 +23,15 @@ g{
 }
 
 
-
 .top h2{
   color: white;
-  padding-right: 90%;
-  padding-left: 40%;
+  width: 100%;
   position: fixed;
   align-self: auto;
+  padding-right: 90%;
+  padding-left: 37.6%;
+  padding-top: .5%;
+  padding-bottom: .5%;
 }
 
 .top{
@@ -41,11 +39,9 @@ g{
   font-family:sans-serif;
   font-size: 38px;
   overflow-y: hidden;
-  position: fixed;
+  position: sticky;
+
 }
-
-
-
 
 .milkmode u{
   background-color: none ;
@@ -60,16 +56,17 @@ g{
   z-index: 1;
   overflow-x: hidden;
   text-decoration: none;
-  padding-left: 140px;
+  padding-left: 10%;
   overflow-x: hidden;
 }
+
 .bar{
-  height: 100%;
-  top: 0;
-  left: 0;
-  width: 3%;
-  background-color: black;
-  position: fixed;
+  background-color:black;
+  height:100%;
+  width:3%;
+  top:0;
+  left:0;
+  position:fixed;
 }
 
 .sidebar {
@@ -81,14 +78,13 @@ g{
   right: 0;
   background-color: black;
   overflow-x: hidden;
-  padding-top: 20px;
+  padding-top: 2%;
   top: 1;
   right: 1;
 }
 
 
 .sidebar a {
-  padding-top: 20px;
   padding: 6px 8px 6px 16px;
   text-decoration: none;
   font-size: 25px;
@@ -100,14 +96,4 @@ g{
 .sidebar a:hover {
   color: white;
   text-shadow: 2px 2px #787f8c;
-}
-
-img{
-  top: 0;
-
-}
-
-@media screen and (max-height: 450px) {
-  .sidebar {padding-top: 15px;}
-  .sidebar a {font-size: 18px;}
 }
