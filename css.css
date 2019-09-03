@@ -7,6 +7,7 @@ body {
 
 h2 {
   background-color: black;
+
 }
 
 u {
@@ -26,34 +27,35 @@ g{
 .top h2{
   color: white;
   width: 100%;
-  height: 5% ;
+  height: 7% ;
   position: fixed;
   padding-right: 90%;
   padding-left: 50%;
   padding-bottom: .5%;
   margin-top: 0;
-  top: 0;
+  top: 2%;
   text-align: left;
   z-index: 2;
+  left: -5%;
 }
 
 .top{
   background-color: black;
   font-family:sans-serif;
-  font-size: 175%;
+  font-size: 200%;
 }
 
 .milkmode u{
   font-family: sans-serif;
-  font-size: 150%;
+  font-size: 130%;
   text-decoration: none;
   background-color: none ;
   height: 100%;
-  width: 70%;
+  width: 35%;
   position: absolute;
-  left: 15%;
-  top: 10%;
-  z-index: 1;
+  left:37.4%;
+  top: 27%;
+  z-index: 0;
   text-decoration: none;
   color: white;
   text-shadow: 2px 2px grey;
@@ -82,20 +84,19 @@ g{
   width: 12.5%;
   position: fixed;
   z-index: 3;
-  top: 0;
-  right: 0;
+  top: 1;
+  right: 1;
   background-color: black;
   overflow-x: hidden;
-  padding-top: 2%;
-  top: 1%;
-  left: 1%;
+  padding-top: 3%;
 }
 
 
+
 .sidebar a {
-  padding: 4% 1% 3%;
+  padding: 1% 1% 5% 6%;
   text-decoration: none;
-  font-size: 150%;
+  font-size: 24px;
   color: #afb4bc;
   display: block;
   font-family: sans-serif;
@@ -105,4 +106,14 @@ g{
 .sidebar a:hover {
   color: white;
   text-shadow: 2px 2px #787f8c;
+}
+
+.black{
+  background-color: black;
+  height: 3%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: fixed;
+  z-index: 1;
 }
