@@ -134,3 +134,9 @@ g{
   text-decoration: none;
   text-shadow: 2px 2px grey;
 }
+
+.refImage {
+  width: 15%;
+  height: 15%;
+  float: left;
+}
